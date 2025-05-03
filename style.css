@@ -1,0 +1,58 @@
+main{
+  width: 50%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+table {
+margin: 50px auto;
+width: 80%; 
+border-radius: 8px; 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+table, th, td {
+border-collapse: collapse;
+border: 1px solid black; 
+background-color: greenyellow; 
+text-align: center; 
+}
+
+th, td {
+padding: 15px; 
+}
+
+th {
+background-color: #4CAF50; 
+color: white; 
+font-size: 1.2em; 
+font-weight: bold;
+text-transform: uppercase; 
+}
+
+
+
+
+
+body, html {
+margin: 0;
+padding: 0;
+height: 100%;  
+display: flex;
+justify-content: center;  
+
+}
+
+.center-container {
+display: flex;
+justify-content: center;  
+}
+
+#search-input, #search-btn {
+padding: 8px 12px;  
+}
+
+body {
+  background-color: lightblue; 
+}
